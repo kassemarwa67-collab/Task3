@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+} 
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+        counter-reset:none ;
+}
+
+header {
+    padding: 20px;
+    text-align: left;
+    display: flex;
+}
+.locat{
+    font-size:200 px;
+    width: 1000px;
+    height: 5px;
+    margin-right:100 px;
+    padding: 10px ;
+    display: flex;
+
+}
+.loca{
+
+    position: absolute;
+    right: 100px;
+font-size: 50px;   
+    color: blue;       
+    margin: 10px;
+
+
+}
+
+
+button{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    display: inline;
+    font-size: 20px;
+    background-color: rgb(150, 150, 245);
+    color: aliceblue;
+    border: 10px;
+    border-radius: 10px;
+left: 1200px; 
+}
+section{
+    display: flex;
+    gap: 20px;
+
+}
+.card{
+    width: 300px;
+    height: 200px;
+background-color: rgba(137, 43, 226, 0.091);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+flex-direction: row;
+
+}
+.about {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+
+
+}
+
+.img {
+    background-image: url(https://charles-pink.vercel.app/man.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+     width: 500px;
+}
+.content{
+width: 50%;
+
+ text-align: center;
+ font-size: 23px;
+ align-items: center;
+padding: 10px;
+flex-direction: row;
+}
+.dd{
+    width: 100%;
+    height: 60px;
+ font-size: 23px;
+ border-top: 1px solid black;
+ align-items:center ;
+padding: 10px;
+text-align:center;
+text-decoration:overline black ;
+display: flex;
+gap: 100px;
+border:1px solid black ;
+}
+.butt{
+ width: 150px;
+    height: 50px;
+    margin: 10px;
+    display: inline;
+    font-size: 20px;
+    background-color: rgb(74, 74, 232);
+    color: aliceblue;
+    border: 10px;
+    border-radius: 10px;
+left: 1200px; }
+
+.ba{
+padding: 30px;
+width: 100%;
+align-items: center;
+
+}
+
+.imgg{
+    background-image: url("https://i.pinimg.com/736x/de/f3/65/def365ac2557e851a8cbec1ca5cfa85d.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(65, 150, 224);
+}
+.sc{
+    text-align: center;
+    margin: 60px auto;
+}
+
+.sc h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pra{
+    width: 60px;
+    height: 5px;
+    background-color: #ddd;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+.sc p{
+    width: 600px;
+    margin: auto;
+    color: gray;
+    line-height: 1.6;
+}
+.task-cards{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 10px;
+background:no-repeat;
+}
+
+.card{
+display: flex;
+gap: 20px;
+align-items: center;
+width: 30%;
+border: 1px solid gray ;
+border-radius: 10px;
+box-shadow: 1px 2px 10px 2px gray;
+
+}
+.card img{
+    width: 150px;
+    height: 150px;
+}
+.teams{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.card-team{
+    width: 185px;
+    background-color: #ccd0d8;
+    text-align: center;
+    padding: 20px;
+
+    border-radius: 100px 100px 0px 0px;
+}
+
+.card-team img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-team h3{
+    margin-top: 30px;
+}
+
+.card-team p{
+    color: #333;
+}
+footer{
+    background-color: #0b234bc5;
+    color: white;
+    padding: 50px 400px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+
+.contat h3,.follow h3{
+    margin-bottom: 15px;
+}
+
+.contat p{
+    line-height: 30px;
+}
+
+.follow i{
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+hr{
+    margin: 30px 0;
+    border: 1px solid #3a4658;
+}
+
